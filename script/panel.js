@@ -74,7 +74,7 @@ var loadMozaicData = function() {
 
   applyFunctionOnInspectedWindow(gatherMozaicData, function(result) {
     finishLoading();
-    $('.timestamp').text(result.timestamp);
+    $('.timestamp').text(result.error || result.timestamp);
 
     populateColumn('.all-widgets', result.allWidgets, function(widget) {
       return ('<span class="left">' + widget.name + '</span>' +
