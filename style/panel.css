@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+body {
+  font-family: 'Lucida Grande', sans-serif;
+  font-size: 12px;
+}
+.head {
+  background: #f1f1f1;
+  padding: 0 10px;
+  line-height: 30px;
+}
+.head .loading,
+.head .no-mozaic,
+.head .reload {
+  display: none;
+}
+.column {
+  float: left;
+  width: 260px;
+}
+.column h3 {
+  padding: 0 10px;
+  border-bottom: 1px solid #f1f1f1;
+  background: #fcfcfc;
+  line-height: 30px;
+}
+.column ul {
+  list-style: none;
+}
+.column li {
+  clear: both;
+  padding: 0 10px;
+  line-height: 20px;
+}
